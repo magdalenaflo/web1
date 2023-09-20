@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning HTML Tables</title>
+</head>
+<body>
+    <h1>Student Records</h1>
+    
+    <table border="1">
+        <tr>
+            <th>Num.</th>
+            <th colspan="2">NIM/Nama</th>
+            <th>Status</th>
+            <th>Attendance</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>123</td>
+            <td>Olen</td>
+            <td>Inside</td>
+            <td rowspan="2">Prsent</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>321</td>
+            <td>Flo</td>
+            <td>Outside</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>237</td>
+            <td>Poyen</td>
+            <td rowspan="2">Inside</td>
+            <td>Present</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>777</td>
+            <td>Floren</td>
+            <td>Absent</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <td colspan="2">A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td colspan="3">C</td>
+            <td rowspan="3">D</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E</td>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td colspan="2">H</td>
+        </tr>
+    </table>
+
+</body>
+</html>
